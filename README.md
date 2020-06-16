@@ -1,1 +1,2 @@
-# Wethinkcode_Wethinkcode_ bootcamp exercises, projects and exams
+# Wethinkcode_
+Wethinkcode_ bootcamp exercises, projects and exams
