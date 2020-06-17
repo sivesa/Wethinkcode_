@@ -1,6 +1,5 @@
-Credentials cache: API:3001
-Principal: event@WETHINKCODE.CO.ZA
+Credentials cache: API:C5D9116C-B2B6-463A-8856-99FE09B1C1A8
+        Principal: sisandla@WETHINKCODE.CO.ZA
 
 Issued                Expires               Principal
-Jun 16 08:35:19 2020  Jun 16 18:35:19 2020  krbtgt/WETHINKCODE.CO.ZA@WETHINKCODE.CO.ZA
-Jun 16 09:16:22 2020  Jun 16 18:35:19 2020  ldap/ldap-slave.wethinkcode.co.za@WETHINKCODE.CO.ZA
+Jun 17 11:28:18 2020  Jun 17 21:28:18 2020  krbtgt/WETHINKCODE.CO.ZA@WETHINKCODE.CO.ZA
