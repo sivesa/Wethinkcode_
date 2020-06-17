@@ -1,1 +1,1 @@
-find . -not -name ".." -or -type d | wc -l | tr -d " "
+find . -type d -or -type f -or -type l | wc -l | tr -d " "
