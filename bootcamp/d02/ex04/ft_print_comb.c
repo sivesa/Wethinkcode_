@@ -6,7 +6,7 @@
 /*   By: sisandla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/17 14:34:55 by sisandla          #+#    #+#             */
-/*   Updated: 2020/06/17 15:18:15 by sisandla         ###   ########.fr       */
+/*   Updated: 2020/06/18 09:41:06 by sisandla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,9 @@ void	ft_print_comb(void)
 				ft_putchar(x);
 				ft_putchar(y);
 				ft_putchar(z);
+				if (x == '7' && y == '8' && z == '9')
+					return ;
+				ft_putchar(',');
 				ft_putchar(' ');
 				z++;
 			}
