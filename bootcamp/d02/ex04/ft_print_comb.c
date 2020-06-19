@@ -6,16 +6,9 @@
 /*   By: sisandla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/17 14:34:55 by sisandla          #+#    #+#             */
-/*   Updated: 2020/06/18 09:41:06 by sisandla         ###   ########.fr       */
+/*   Updated: 2020/06/19 16:23:03 by sisandla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 void	ft_print_comb(void)
 {
@@ -36,7 +29,7 @@ void	ft_print_comb(void)
 				ft_putchar(y);
 				ft_putchar(z);
 				if (x == '7' && y == '8' && z == '9')
-					return ;
+					return;
 				ft_putchar(',');
 				ft_putchar(' ');
 				z++;
@@ -45,11 +38,4 @@ void	ft_print_comb(void)
 		}
 		x++;
 	}
-}
-
-int		main(void)
-{
-	ft_print_comb();
-	ft_putchar('\n');
-	return (0);
 }
