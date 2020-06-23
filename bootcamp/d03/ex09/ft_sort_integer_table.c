@@ -6,35 +6,26 @@
 /*   By: sisandla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 14:37:08 by sisandla          #+#    #+#             */
-/*   Updated: 2020/06/21 14:38:01 by sisandla         ###   ########.fr       */
+/*   Updated: 2020/06/23 12:37:20 by sisandla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
-{
-	int tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
-
 void	ft_sort_integer_table(int *tab, int size)
 {
-	int imax;
 	int i;
+	int tmp;
 
-	if (tab)
+	i = 0;
+	while (i < size)
 	{
-		while (--size >= 0)
+		if (tab[i] > tab[i + 1])
 		{
-			i = -1;
-			imax = -1;
-			while (++i <= size)
-				if (imax == -1 || tab[i] > tab[imax])
-					imax = i;
-			if (imax != size)
-				ft_swap(tab + size, tab + imax);
+			tmp = tab[i + 1];
+			tab[i + 1] = tab[i];
+			tab[i] = tmp;
+			i = 0;
 		}
+		else
+			i++;
 	}
 }
