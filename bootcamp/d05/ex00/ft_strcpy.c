@@ -6,11 +6,9 @@
 /*   By: sisandla <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/25 16:44:21 by sisandla          #+#    #+#             */
-/*   Updated: 2020/06/25 16:44:28 by sisandla         ###   ########.fr       */
+/*   Updated: 2020/06/26 13:15:22 by sisandla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strcpy(char *dst, const char *src)
 {
